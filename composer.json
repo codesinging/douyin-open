@@ -1,0 +1,24 @@
+{
+    "name": "codesinging/douyin-open",
+    "description": "抖放平台SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "codesinging",
+            "email": "codesinging@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeSinging\\DouyinOpen\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CodeSinging\\DouyinOpen\\Tests\\": "tests"
+        }
+    }
+}
